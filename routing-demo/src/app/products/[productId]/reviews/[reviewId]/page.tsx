@@ -1,3 +1,5 @@
+import { notFound } from "next/navigation";
+
 type Props = {
   params: Promise<{
     productId: string;
@@ -7,6 +9,10 @@ type Props = {
 
 async function ProductReviewPage({ params }: Props) {
   const { productId, reviewId } = await params;
+
+  if (+reviewId > 100) {
+    notFound();
+  }
 
   return (
     <>
