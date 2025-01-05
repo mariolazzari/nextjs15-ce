@@ -7,8 +7,7 @@ async function ProductDetails({ params }: Props) {
 
   return (
     <>
-      <h2>Product Details</h2>
-      <h3>Product ID: {productId}</h3>
+      <h2>Product ID: {productId}</h2>
     </>
   );
 }
