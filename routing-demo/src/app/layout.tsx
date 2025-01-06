@@ -3,7 +3,11 @@ import { PropsWithChildren } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Next.js Route demo",
+  //title: "Next.js Route demo",
+  title: {
+    default: "Next.js Route demo",
+    template: "%s | Next.js Route demo",
+  },
   description: "A simple Next.js TypeScript quickstart project.",
 };
 
