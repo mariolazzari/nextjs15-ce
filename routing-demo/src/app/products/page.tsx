@@ -1,10 +1,23 @@
+import Link from "next/link";
+
 function Products() {
   return (
     <div>
-      <h1>Products</h1>
-      <h2>Product 1</h2>
-      <h2>Product 2</h2>
-      <h2>Product 3</h2>
+      <h1>Products page</h1>
+
+      <Link href="/">
+        <h2> Back Home </h2>
+      </Link>
+
+      <ul>
+        {[1, 2, 3].map(id => (
+          <li key={id}>
+            <Link href={`/products/${id}`} replace={id === 3}>
+              Product ${id}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
