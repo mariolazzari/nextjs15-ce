@@ -11,6 +11,10 @@ function HomePage() {
         <li>
           <Link href="/products">Products</Link>
         </li>
+        <li>
+          <Link href="/articles/news?lang=en">Read in English</Link>
+          <Link href="/articles/news?lang=it">Read in Italian</Link>
+        </li>
       </ul>
     </>
   );
