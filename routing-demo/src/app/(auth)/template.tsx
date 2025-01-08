@@ -1,11 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import { PropsWithChildren } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 function AuthLayout({ children }: Readonly<PropsWithChildren>) {
   const pathname = usePathname();
+  const [input, setInput] = useState("");
 
   const links = [
     { href: "/register", label: "Register" },
@@ -19,6 +21,13 @@ function AuthLayout({ children }: Readonly<PropsWithChildren>) {
         <header className="p-8 bg-sky-700 text-white">
           <p>Header</p>
         </header>
+
+        <input
+          className="bg-slate-100"
+          type="text"
+          value={input}
+          onChange={e => setInput(e.target.value)}
+        />
 
         {links.map(({ href, label }) => (
           <Link
