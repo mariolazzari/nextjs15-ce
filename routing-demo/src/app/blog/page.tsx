@@ -6,7 +6,9 @@ export const metadata: Metadata = {
   },
 };
 
-function BlogPage() {
+async function BlogPage() {
+  await new Promise(res => setTimeout(res, 2000));
+
   return <h1>BlogPage</h1>;
 }
 
