@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
 
 type Props = {
   params: Promise<{
@@ -11,7 +11,8 @@ async function ProductReviewPage({ params }: Props) {
   const { productId, reviewId } = await params;
 
   if (+reviewId > 100) {
-    notFound();
+    //   notFound();
+    redirect("/product");
   }
 
   return (
