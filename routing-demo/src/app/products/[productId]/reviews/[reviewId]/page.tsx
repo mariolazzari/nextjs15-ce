@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 
 type Props = {
   params: Promise<{
@@ -7,12 +7,21 @@ type Props = {
   }>;
 };
 
+function getRandomInt(count: number) {
+  return Math.floor(Math.random() * count);
+}
+
 async function ProductReviewPage({ params }: Props) {
+  const random = getRandomInt(2);
+  if (random === 1) {
+    throw new Error("Error loading review");
+  }
+
   const { productId, reviewId } = await params;
 
   if (+reviewId > 100) {
-    //   notFound();
-    redirect("/product");
+    notFound();
+    // redirect("/product");
   }
 
   return (
