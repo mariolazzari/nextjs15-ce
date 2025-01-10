@@ -6,7 +6,16 @@ export const metadata: Metadata = {
   description: "A simple Next.js TypeScript quickstart project.",
 };
 
+function getRandomInt(count: number) {
+  return Math.floor(Math.random() * count);
+}
+
 function ProductLayout({ children }: Readonly<PropsWithChildren>) {
+  const random = getRandomInt(2);
+  if (random === 1) {
+    throw new Error("Error loading review");
+  }
+
   return (
     <html lang="en">
       <body className="p-4">
