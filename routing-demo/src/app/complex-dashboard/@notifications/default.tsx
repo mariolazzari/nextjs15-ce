@@ -1,10 +1,10 @@
 import Card from "@/components/card";
 import Link from "next/link";
 
-function Notifications() {
+function NotificationsDefault() {
   return (
     <Card>
-      <div>Notifications</div>
+      <div>Notifications Default</div>
       <div>
         <Link href="/complex-dashboard/archived">Archived</Link>
       </div>
@@ -12,4 +12,4 @@ function Notifications() {
   );
 }
 
-export default Notifications;
+export default NotificationsDefault;

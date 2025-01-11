@@ -1,7 +1,7 @@
 import Card from "@/components/card";
 
 function RevenueMetrics() {
-  return <Card>RevenueMetrics</Card>;
+  return <Card>Revenue Metrics</Card>;
 }
 
 export default RevenueMetrics;
