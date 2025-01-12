@@ -8,4 +8,5 @@
 29 - [Global errors](https://www.youtube.com/watch?v=ywUDMEVR3Mg)
 30 - [Parallel routes](https://www.youtube.com/watch?v=697kNwfU-4M)
 31 - [Unmatched routes](https://www.youtube.com/watch?v=N2Hjwj5ibjQ)
+32 - [Intercepting routes](https://www.youtube.com/watch?v=FTiwIVxWC00)
 
