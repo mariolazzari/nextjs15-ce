@@ -11,6 +11,7 @@ type ComplexDashboardLayoutProps = Readonly<
     notifications: ReactNode;
     revenue: ReactNode;
     user: ReactNode;
+    login: ReactNode;
   }>
 >;
 
@@ -19,7 +20,14 @@ function ComplexDashboardLayout({
   notifications,
   revenue,
   user,
+  login,
 }: ComplexDashboardLayoutProps) {
+  const isLogged = true;
+
+  if (!isLogged) {
+    return <div>{login}</div>;
+  }
+
   return (
     <>
       <div>{children}</div>
