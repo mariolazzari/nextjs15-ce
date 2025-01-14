@@ -10,3 +10,13 @@ export async function GET(_req: Request, { params }: Context) {
 
   return Response.json(comment);
 }
+
+export async function PATCH(req: Request, { params }: Context) {
+  const { id } = await params;
+  const { text } = await req.json();
+
+  const idx = comments.findIndex(comment => comment.id === +id);
+  comments[idx].text = text;
+
+  return Response.json(comments[idx]);
+}
