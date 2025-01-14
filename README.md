@@ -12,3 +12,5 @@
 33 - [Intercepting routes](https://www.youtube.com/watch?v=FTiwIVxWC00)
 34 - [Intercepting route paths](https://www.youtube.com/watch?v=U6aRqv7rzQ8)
 35 - [Route handlers](https://www.youtube.com/watch?v=27Uj6BeIDV0)
+
+38 - [Dynamic route handlers](https://www.youtube.com/watch?v=EBkKNzJURJM)
