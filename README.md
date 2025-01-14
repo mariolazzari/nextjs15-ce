@@ -10,4 +10,5 @@
 31 - [Unmatched routes](https://www.youtube.com/watch?v=N2Hjwj5ibjQ)
 32 - [Conditional routing](https://www.youtube.com/watch?v=P-_P3J11_bE)
 33 - [Intercepting routes](https://www.youtube.com/watch?v=FTiwIVxWC00)
+34 -[Intercepting route paths](https://www.youtube.com/watch?v=U6aRqv7rzQ8)
 
