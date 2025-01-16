@@ -16,3 +16,5 @@
 38 - [Dynamic route handlers](https://www.youtube.com/watch?v=EBkKNzJURJM)
 
 41 - [Query params](https://www.youtube.com/watch?v=LvRLbeBYkuo)
+
+46 - [Route redirects](https://www.youtube.com/watch?v=L0iIzarEQ6Q)
