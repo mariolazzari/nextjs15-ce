@@ -18,3 +18,12 @@
 41 - [Query params](https://www.youtube.com/watch?v=LvRLbeBYkuo)
 
 46 - [Route redirects](https://www.youtube.com/watch?v=L0iIzarEQ6Q)
+
+
+48 - [CSR](https://www.youtube.com/watch?v=-FIUWaYXmTU) 
+49 - [SSG/R](https://www.youtube.com/watch?v=R8ZwbehCGP0)
+50 - [Suspense SSR](https://www.youtube.com/watch?v=cwjsoOZVK34)
+51 - [RSC](https://www.youtube.com/watch?v=Nnr6w8vamUo)
+52 - [Server & Client](https://www.youtube.com/watch?v=dMCSiA5gzkU)
+
+54 - [Static rendering](https://www.youtube.com/watch?v=O6VFEwHujW0)
