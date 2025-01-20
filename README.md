@@ -27,3 +27,8 @@
 52 - [Server & Client](https://www.youtube.com/watch?v=dMCSiA5gzkU)
 
 54 - [Static rendering](https://www.youtube.com/watch?v=O6VFEwHujW0)
+55 - [Dynamic routing](https://www.youtube.com/watch?v=Zmi8Ad8TBYY)
+56 - [generateStaticParams](https://www.youtube.com/watch?v=09aGB_Q6cqE)
+57 - [dynamicParams](https://www.youtube.com/watch?v=oEF3dyNgmcs)
+58 - [Streaming](https://www.youtube.com/watch?v=oSf1gUDGJOA)
+
