@@ -31,4 +31,5 @@
 56 - [generateStaticParams](https://www.youtube.com/watch?v=09aGB_Q6cqE)
 57 - [dynamicParams](https://www.youtube.com/watch?v=oEF3dyNgmcs)
 58 - [Streaming](https://www.youtube.com/watch?v=oSf1gUDGJOA)
+59 - [Client & server composition patenr](https://www.youtube.com/watch?v=HQcxPCDwTuE)
 
