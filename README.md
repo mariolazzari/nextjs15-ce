@@ -32,4 +32,7 @@
 57 - [dynamicParams](https://www.youtube.com/watch?v=oEF3dyNgmcs)
 58 - [Streaming](https://www.youtube.com/watch?v=oSf1gUDGJOA)
 59 - [Client & server composition patenr](https://www.youtube.com/watch?v=HQcxPCDwTuE)
+60 - [Server only](https://www.youtube.com/watch?v=BmcGheLzzT0) 
+61 - [3rd party](https://www.youtube.com/watch?v=FJvUhHiihIQ)
+62 - [Context providers](https://www.youtube.com/watch?v=ebOgXUPG3_k) 
 
