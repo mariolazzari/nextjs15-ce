@@ -1,7 +1,7 @@
 import "server-only";
 
 export const serverSideFunction = () => {
-  console.log("first server side function");
+  console.log("Server side function");
 
-  return "server result";
+  return "Server result";
 };
