@@ -1,6 +1,8 @@
 import { User } from "@/types/User";
 
 async function UsersServerPage() {
+  await new Promise(res => setTimeout(res, 1000));
+
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
   if (!res.ok) {
     throw new Error("Error fetching users");
