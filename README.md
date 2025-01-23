@@ -38,4 +38,5 @@
 63 - [Client only](https://www.youtube.com/watch?v=zVRVMTTVHes)
 64 - [Client placement](https://www.youtube.com/watch?v=yJNuVay1SHw)
 65 - [Interleaving](https://www.youtube.com/watch?v=PM_STAq4MSg)
-66 . [Data fetchong](https://www.youtube.com/watch?v=DRsU93Lde2k)
+66 - [Data fetchong](https://www.youtube.com/watch?v=DRsU93Lde2k)
+65 - [Client data fetching](https://www.youtube.com/watch?v=7Kz4--kCBP0&t=2s)
