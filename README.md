@@ -42,3 +42,4 @@
 67 - [Client data fetching](https://www.youtube.com/watch?v=7Kz4--kCBP0&t=2s)
 
 70 - [Sequential fetching](https://www.youtube.com/watch?v=Fo4BZtzV2xQ)
+71 - [Parallel fetching](https://www.youtube.com/watch?v=TLcuO9anpPo)
