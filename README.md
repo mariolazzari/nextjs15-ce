@@ -43,3 +43,4 @@
 
 70 - [Sequential fetching](https://www.youtube.com/watch?v=Fo4BZtzV2xQ)
 71 - [Parallel fetching](https://www.youtube.com/watch?v=TLcuO9anpPo)
+72 - [Database](https://www.youtube.com/watch?v=IUeSwzvz9i4)
