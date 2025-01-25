@@ -45,3 +45,4 @@
 71 - [Parallel fetching](https://www.youtube.com/watch?v=TLcuO9anpPo)
 72 - [Database](https://www.youtube.com/watch?v=IUeSwzvz9i4)
 73 - [Mutations](https://www.youtube.com/watch?v=F8DB4LM1dME)
+74 - [Server actions](https://www.youtube.com/watch?v=xWFbnrTap3M)
