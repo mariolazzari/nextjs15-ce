@@ -1,3 +1,4 @@
+import Submit from "@/components/submit";
 import { addProduct } from "@/prisma";
 import { redirect } from "next/navigation";
 
@@ -37,12 +38,8 @@ async function AddProductPage() {
           name="description"
         />
       </label>
-      <button
-        type="submit"
-        className="block w-full p-2 text-white bg-blue-500 rounded disabled:bg-gray-500"
-      >
-        Submit
-      </button>
+
+      <Submit />
     </form>
   );
 }
