@@ -47,3 +47,5 @@
 73 - [Mutations](https://www.youtube.com/watch?v=F8DB4LM1dME)
 74 - [Server actions](https://www.youtube.com/watch?v=xWFbnrTap3M)
 75 - [useFormStatus](https://www.youtube.com/watch?v=o3M7RmsyiBU)
+76 - [useActionState](https://www.youtube.com/watch?v=4-3K7SgoVf4)
+77 - [Actions file](https://www.youtube.com/watch?v=UiQpt9b_ei4)
