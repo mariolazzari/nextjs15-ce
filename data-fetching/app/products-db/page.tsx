@@ -1,3 +1,4 @@
+import { removeProduct } from "@/actions/products";
 import { getProducts } from "@/prisma";
 import { Product } from "@/types/Product";
 import Link from "next/link";
@@ -17,6 +18,10 @@ async function ProductsDB() {
               </h2>
               <p>{product.description}</p>
               <p>{product.price}</p>
+
+              <form action={removeProduct.bind(null, product.id)}>
+                <button type="submit">Delete</button>
+              </form>
             </div>
           ))}
         </div>

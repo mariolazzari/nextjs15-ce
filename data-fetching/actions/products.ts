@@ -1,6 +1,7 @@
 "use server";
 
-import { addProduct, updateProduct } from "@/prisma";
+import { addProduct, deleteProduct, updateProduct } from "@/prisma";
+import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
 export type Errors = Partial<{
@@ -61,4 +62,9 @@ export async function editProduct(
 
   await updateProduct(id, title, +price, description);
   redirect("/products-db");
+}
+
+export async function removeProduct(id: number) {
+  await deleteProduct(id);
+  revalidatePath("/products-db");
 }
