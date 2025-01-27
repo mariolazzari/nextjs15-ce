@@ -49,3 +49,5 @@
 75 - [useFormStatus](https://www.youtube.com/watch?v=o3M7RmsyiBU)
 76 - [useActionState](https://www.youtube.com/watch?v=4-3K7SgoVf4)
 77 - [Actions file](https://www.youtube.com/watch?v=UiQpt9b_ei4)
+78 - [useFormStatus vs useActionState](https://www.youtube.com/watch?v=qpA-eGxASxo)
+79 - [Update action](https://www.youtube.com/watch?v=SbaKEqCRcDE)
