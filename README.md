@@ -52,3 +52,4 @@
 78 - [useFormStatus vs useActionState](https://www.youtube.com/watch?v=qpA-eGxASxo)
 79 - [Update action](https://www.youtube.com/watch?v=SbaKEqCRcDE)
 80 - [Delete action](https://www.youtube.com/watch?v=oi71gLPFQtk)
+81 - [Optimistic updates](https://www.youtube.com/watch?v=ipmfUw8I2qc)
