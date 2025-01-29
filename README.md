@@ -54,3 +54,4 @@
 80 - [Delete action](https://www.youtube.com/watch?v=oi71gLPFQtk)
 81 - [Optimistic updates](https://www.youtube.com/watch?v=ipmfUw8I2qc)
 82 - [Form](https://www.youtube.com/watch?v=8CYDkIncDSw)
+83 - [Auth](https://www.youtube.com/watch?v=X3CHpXpeQ0c)
